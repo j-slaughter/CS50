@@ -1,0 +1,13 @@
+Running the command: SELECT AVG(energy), AVG(valence), AVG(danceabilty) FROM songs;
+gives me back a table with AVG(energy) = 0.65906, AVG(valence) = 0.484443, and
+AVG(danceability) = 0.71646. Therefore, I would characterize the listeners audio aura
+as generally happy go-lucky.
+
+This, however, may not be representive of the listener because I am taking the average
+of the songs and if the listener uses Spotify to listen to sad music and also for gym workouts,
+then their averages will be skewed. A better method would be to calculate aura by
+average genre of the songs or using the current data available to us in this database,
+the average count of songs within a predetermine range of energy, valence, and danceability.
+So if there are more songs in the lower range of energy, valence, and danceability, our aura will
+correctly characterize the listener as "sad", even if they occasionally listen to more upbeat workout
+music.
