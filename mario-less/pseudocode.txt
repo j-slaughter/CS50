@@ -1,0 +1,5 @@
+Prompt user for height
+
+If height is less than 1 or greater than 8, re-prompt user
+
+Print out rows of hashes based on inputted height
