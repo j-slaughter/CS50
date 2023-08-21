@@ -1,0 +1,26 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+    Real time sorted5000 = 0.020s
+    Real time reversed5000 = 0.085s
+    Real time random50000 = 8.525s
+    Real time sorted50000 = 0.619s
+Fast run time if already sorted (O(n^2)), but slower if unsorted (Omega (n))
+
+sort2 uses: Merge Sort
+
+How do you know?:
+    Real time sorted5000 = 0.038s
+    Real time reversed5000 = 0.019s
+    Real time random50000 = 0.616s
+    Real time sorted50000 = 0.653s
+Has same runtime (theta(n log n)) if sorted or unsorted
+
+sort3 uses: Selection Sort
+
+How do you know?:
+    Real time sorted5000 = 0.067s
+    Real time reversed5000 = 0.070s
+    Real time random50000 = 4.102s
+    Real time sorted50000 = 4.649s
+Has same runtime (theta(n^2)) if sorted or un
