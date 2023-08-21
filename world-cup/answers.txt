@@ -1,0 +1,23 @@
+Times:
+
+10 simulations: 0m0.027s
+100 simulations: 0m0.027s
+1000 simulations: 0m0.033s
+10000 simulations: 0m0.097s
+100000 simulations: 0m0.803s
+1000000 simulations: 0m7.697s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+
+As the number of stimulations increased, the chance of lower rated teams winning decreased.
+So starting at 10000 stimulations, their chance of winning was starting to return 0.0%.
+This could be a fallacy in the fact that in real-world situation, they could still have a marginal chance at success.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?:
+
+The predictions started to stabilize after 1000 stimulations.
+This is while still maintaining a relative quick run time.
+Therefore, I would call the predictions "good enough" after 1000 stimulations.
